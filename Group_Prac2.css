@@ -22,7 +22,7 @@ h1{
   border-width: 0.5px;
   padding: 5px;
   color: black;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 /* highlight input box when selected */
 .inputbox:focus{
