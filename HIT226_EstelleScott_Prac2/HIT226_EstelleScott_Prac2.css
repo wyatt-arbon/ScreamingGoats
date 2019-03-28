@@ -3,6 +3,7 @@ body{
   font-family:sans-serif;
 }
 
+/* input box label design */
 label{
   width: 150px;
   display: inline-block;
@@ -23,7 +24,6 @@ h1{
   border-style: solid;
   border-width: 0.5px;
   padding: 5px;
-  font-style: italic;
   color: 383838;
 }
 .inputbox:focus{
@@ -42,6 +42,7 @@ h1{
   box-shadow:0px 5px 20px 3px #999;
 }
 
+/* horizonal rule design */
 hr{
   border: 0;
   height: 1px;
@@ -49,6 +50,7 @@ hr{
   background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 
+/* form design */
 form{
   padding: 5%;
   padding-top: 2%;
