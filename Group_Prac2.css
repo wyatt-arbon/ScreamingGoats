@@ -19,8 +19,7 @@ h1{
   width: 40%;
   border-radius: 25px;
   font-family: sans-serif;
-  /*border-width: 0.5px; */
-  border: none;
+  border-width: 0px;
   padding: 5px;
   color: black;
 }
