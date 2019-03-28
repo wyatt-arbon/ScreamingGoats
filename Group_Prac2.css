@@ -1,6 +1,6 @@
 body{
   /*background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);*/
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bokeh-background-1.jpg);
+  background-image: url(bokeh-background-1.jpg);
   font-family:sans-serif;
 }
 label{
