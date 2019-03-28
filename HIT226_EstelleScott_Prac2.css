@@ -1,0 +1,55 @@
+body{
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  font-family:sans-serif;
+}
+
+label{
+  width: 150px;
+  display: inline-block;
+  text-align: right;
+  font-weight: bold;
+  color: #383838	;
+}
+
+h1{
+  font-family: inherit;
+  color: #383838	;
+}
+
+/* input box design */
+.inputbox{
+  width: 40%;
+  font-family: sans-serif;
+  border-style: solid;
+  border-width: 0.5px;
+  padding: 5px;
+  font-style: italic;
+  color: 383838;
+}
+.inputbox:focus{
+  background-color: #FFF2E5;
+}
+
+/* form container design*/
+.container{
+  background-color: rgba(245, 245, 245, 0.7);
+  padding: 20px;
+  border-radius: 5px;
+  width: 50%;
+  margin: auto;
+  margin-top: 3%;
+  text-align: center;
+  box-shadow:0px 5px 20px 3px #999;
+}
+
+hr{
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+form{
+  padding: 5%;
+  padding-top: 2%;
+}
