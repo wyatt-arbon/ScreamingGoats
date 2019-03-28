@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pic1.jpg);
+}
+h1{
+    text-align: center;
+    color: white;
+    padding:20px;
+}
+h2{
+    text-align: center;
+    color: white;
+    padding:20px;
+}
+.register{
+    text-align: center;
+    background-color:rgba(84,84,84,0.25);
+    width:500px;
+    margin: 0px 0px 0px 430px;
+    color:black;
+    font-size: 18px;
+    padding:20px;
+    border-radius: 10px;
+    
+        
+
+}
+#register{
+    margin-left: 50px;
+}
+
+label{
+    color: white;
+    font-family: sans-serif;
+    font-size: italic;
+    
+}
+
+input:focus{
+    background-color: darkgray;
+}
+input[type=radio]{
+     : white;
+}
+#name{
+    width:300px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+}
+#bday{
+    width:300px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+}
+#add1{
+    width:300px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+}
+#add2{
+    width:300px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+}
+#sub1{
+    width:300px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+}
+#cty{
+    width:300px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+}
+#pstc{
+    width:300px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+}
+#st{
+    width:300px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+}
+#email{
+    width:300px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+}
+#conemail{
+    width:300px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+}
+#pass{
+    width:300px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+}
+#cpass{
+    width:300px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+}
+
+
+
+
+#ph{
+    width: 65px;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+}
+#num{
+    width: 240px;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+}
+#sub{
+    width: 200px;
+    padding: 7px;
+    background-color: darkgray;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    border: 2px;
+    border-radius: 3px;
+    outline: 0;
+    color: white;
+}

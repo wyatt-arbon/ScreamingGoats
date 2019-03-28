@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Simple Registration Form </title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1> How To Build A Registration Form</h1>
+        <div class="register">
+            <h2>Register Here</h2>
+         <form method="post" id="register" action="">
+            
+            <label>First Name:</label> <br>
+            <input type="text" name="Fname" id="name"
+            placeholder="Please Enter Your First Name" required><br>       
+            <label>Last Name:</label> <br>
+            <input type="text" name="Lname" id="name"
+            placeholder="Please Enter Your Last Name" required ><br> 
+            <label>Date Of Birth:</label> <br>
+            <input type="date" name="Dob" id="bday"required><br> 
+            <label>Address Line 1:</label> <br>
+            <input type="text" name="AL1" id="add1"required><br> 
+            <label>Address Line 2:</label> <br>
+            <input type="text" name="AL2" id="add2"required><br> 
+            <label>Suburb:</label> <br>
+            <input type="text" name="SB" id="sub1"required><br> 
+            <label>City:</label> <br>
+            <input type="text" name="CT" id="cty"required><br> 
+            <label>Postcode:</label> <br>
+            <input type="number" name="PC" id="pstc"required><br> 
+            <label>State:</label> <br>
+            <select id="st">
+                <option> Select State</option>
+                <option> Northern Territory</option>
+                <option>Australian Capital Territory </option>
+                <option> Western Australia</option>
+                <option> New South Wales</option>
+                <option>  Victoria</option>
+                <option> Queensland</option>
+                <option>South Australia </option>
+                <option>Tasmania</option>    
+            </select><br>
+            <label>Mobile Number:</label> <br>
+            <select id="ph">
+                <option>+61</option>
+                <option>+880</option>
+            </select>
+            <input type="number" name="MobNum" id="num"
+            placeholder="Please Enter Your Mobile Number Here"required><br> 
+            <label>Email Address:</label> <br>
+            <input type="email" name="email" id="email"required><br>
+            <label>Confrim Email Address:</label> <br>
+            <input type="email" name="email" id="conemail"required><br>
+            <label>Password:</label> <br>
+            <input type="password" name="psw" id="pass"required><br>
+            <label>Confrim Password:</label> <br>
+            <input type="password" name="psw" id="cpass"required><br>
+            <label>Please Confrim Your Gender:</label> <br>
+            <input type="radio" name="gender" id="male" checked> Male<br>
+            <input type="radio" name="gender" id="female"> Female<br>
+            <input type="radio" name="gender" id="other"> Prefer Not to Say<br>
+            <input type="submit" value="Submit" id="sub">
+            <input type="reset" value="Reset" id="sub">
+            </form> 
+        </div>
+    </body>
+</html>
