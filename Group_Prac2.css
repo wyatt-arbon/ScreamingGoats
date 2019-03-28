@@ -17,12 +17,12 @@ h1{
 /* input box design */
 .inputbox{
   width: 40%;
+  border-radius: 25px;
   font-family: sans-serif;
   border-style: solid;
   border-width: 0.5px;
   padding: 5px;
   color: black;
-  border-radius: 50px;
 }
 /* highlight input box when selected */
 .inputbox:focus{
